@@ -1,0 +1,370 @@
+,restaurant_name,Category,Address,Phone_number,rating,price,noise_level,Distance_from_94114,Distance_from_94501,Distance_from_94607,Distance_from_94707
+0,Amber Dhara, Indian, 680 Valencia St. San Francisco, (415) 400-5699, 2    , 1    , 5    ,0.995,15.097000000000001,10.458,0.995
+1,Amber India, Indian, 25 Yerba Buena Lane San Francisco, (415) 777-0500, 3    , 2.5  , 3    ,3.594,13.125,8.486,3.594
+2,Ananda Fuara, Indian, 1298 Market St. San Francisco, (415) 621-1994, 1    , 1.5  , 2    ,1.83,13.908,9.269,1.83
+3,Dosa , Indian, 995 Valencia St. San Francisco, (415) 642-3672, 2    , 2.5  , 5    ,1.295,15.439,10.8,1.295
+4,Aslam's Rasoi, Indian, 1037 Valencia St. San Francisco, (415) 695-0599, 2    , 2    , 3    ,1.3419999999999999,15.485999999999999,10.847000000000001,1.3419999999999999
+5,Chaat Cafe, Indian, 320 Third St. San Francisco, (415) 979-9946, 1    , 2    , 3    ,3.612,12.505999999999998,7.867000000000001,3.612
+6,Curry Boyzz, Indian, 4238 18th St. San Francisco, (415) 255-6565, 1    , 2.5  , 3    ,0.217,15.632,10.993,0.217
+7,Dosa on Fillmore, Indian, 1700 Fillmore St. San Francisco, (415) 441-3672, 2    , 2.5  , 4    ,2.255,15.853,11.214,2.255
+8,Gajalee, Indian, 525 Valencia St. San Francisco, (415) 552-9000, 2    , 2    , 2    ,1.168,14.924000000000001,10.285,1.168
+9,Guddu de Kahari, Indian, 1501 Noriega St. San Francisco, (415) 759-9088, 1    , 1.5  , 2    ,3.409,18.807000000000002,14.168,3.409
+10,India Clay Oven, Indian, 2436 Clement St. San Francisco, (415) 751-0505, 2    , 2    , 3    ,4.449,18.904,14.265,4.449
+11,India Garden, Indian, 1261 Folsom St. San Francisco, (415) 626-2798, 2    , 1.5  , 3    ,2.327,13.533,8.894,2.327
+12,India Palace, Indian, 1740 Fillmore St. San Francisco, (415) 567-7789, 1    , 2.5  , 2    ,2.2880000000000003,15.886,11.247,2.2880000000000003
+13,Indian Oven, Indian, 233 Fillmore San Francisco, (415) 626-1628, 2    , 2    , 4    ,1.18,14.967,10.328,1.18
+14,Kasa Indian Eatery, Indian, 4001 18th St. San Francisco, (415) 621-6940, 1    , 3    , 2    ,0.35600000000000004,15.728,11.089,0.35600000000000004
+15,Little Delhi, Indian, 83 Eddy St. San Francisco, (415) 398-3173, 2    , 3    , 2    ,2.508,13.382,8.743,2.508
+16,Maharani, Indian, 1122 Post St. San Francisco, (415) 775-1988, 2    , 2    , 2    ,2.475,13.876,9.237,2.475
+17,Masala, Indian, 1220 Ninth Ave. San Francisco, (415) 566-6976, 1    , 2    , 3    ,2.252,17.287,12.648,2.252
+18,Naan 'n' Chutney, Indian, 525 Haight St. San Francisco, (415) 255-1625, 1    , 1.5  , 3    ,1.318,14.960999999999999,10.322000000000001,1.318
+19,Noori, Indian, 1924 Irving St. San Francisco, (415) 759-7007, 2    , 3.5  , 3    ,2.927,18.061,13.422,2.927
+20,Pakwan, Indian, 3180 16th St. San Francisco, (415) 255-2440, 1    , 2    , 4    ,1.1,14.995,10.356,1.1
+21,Prana, Indian, 540 Howard St. San Francisco, (415) 247-9911, NaN  , NaN  , NaN  ,3.792,12.517000000000001,7.877999999999999,3.792
+22,Raja Cuisine of India, Indian, 500 Haight St. San Francisco, (415) 255-6000, 2    , 1.5  , 4    ,1.3219999999999998,14.956,10.317,1.3219999999999998
+23,Rotee, Indian, 400 Haight St. San Francisco, (415) 552-8309, 1    , 1.5  , 2    ,1.4240000000000002,14.855,10.216000000000001,1.4240000000000002
+24,Roti Indian Bistro, Indian, 53 W. Portal Ave. San Francisco, (415) 665-7684, 3    , 2.5  , 2    ,2.7880000000000003,20.26,15.620999999999999,2.7880000000000003
+25,Shalimar, Indian, 532 Jones St. San Francisco, (415) 928-0333, 1    , 2    , 5    ,2.49,13.792,9.152999999999999,2.49
+26,Taste of the Himalayas, Indian, 2420 Lombard St. San Francisco, (415) 674-9898, 2    , 2    , 2    ,2.9789999999999996,16.266,11.627,2.9789999999999996
+27,Udupi Palace, Indian, 1007 Valencia St. San Francisco, (415) 970-8000, 2    , 4    , 2    ,1.3159999999999998,15.46,10.821,1.3159999999999998
+28,Urban Curry, Indian, 523 Broadway San Francisco, (415) 677-9744, 2    , 3.5  , 3    ,3.965,13.700999999999999,9.062000000000001,3.965
+29,Viva Goa, Indian, 2420 Lombard St. San Francisco, (415) 440-2600, 2    , 2    , 1    ,2.9789999999999996,16.266,11.627,2.9789999999999996
+30,Hong Kong Lounge 2, Chinese, 3300 Geary Blvd. San Francisco, (415) 668-8802, 2    , 3    , 3    ,2.7460000000000004,17.075,12.436,2.7460000000000004
+31,Ton Kiang, Chinese, 5821 Geary Blvd. San Francisco, (415) 386-8530, 1    , 3    , 3    ,4.125,18.576,13.937000000000001,4.125
+32,Yank Sing, Chinese, 101 Spear St. San Francisco, (415) 957-9300, 2    , 3    , 4    ,4.253,12.700999999999999,8.062000000000001,4.253
+33,Canton, Chinese, 655 Folsom St. San Francisco, (415) 495-3064, 1    , 2.5  , NaN  ,3.516,12.411,7.772,3.516
+34,Dragon Well, Chinese, 2142 Chestnut St. San Francisco, (415) 474-6888, 1    , 2.5  , 5    ,3.195,15.877,11.238,3.195
+35,Gold Mountain, Chinese, 644 Broadway San Francisco, (415) 296-7733, 2    , 2.5  , 2    ,3.862,13.805,9.166,3.862
+36,Gourmet Carousel, Chinese, 1559 Franklin St. San Francisco, (415) 771-2044, 1    , 2.5  , 2    ,2.574,14.127,9.488,2.574
+37,Great Eastern, Chinese, 649 Jackson St. San Francisco, (415) 986-2500, 2    , 2.5  , 3    ,3.53,13.225999999999999,8.587,3.53
+38,Jasmine Tea House, Chinese, 3253 Mission St. San Francisco, (415) 826-6288, 1    , 2.5  , 2    ,1.798,16.094,11.455,1.798
+39,Kirin, Chinese, 6135 Geary Blvd. San Francisco, (415) 752-2268, 1    , 2.5  , 2    ,4.309,18.76,14.120999999999999,4.309
+40,Lichee Garden, Chinese, 1416 Powell St. San Francisco, (415) 397-2290, NaN  , 2.5  , NaN  ,3.748,13.970999999999998,9.332,3.748
+41,Louie's California Chinese Cuisine, Chinese, 646 Washington St. San Francisco, (415) 291-8038, 3    , 2.5  , 1    ,3.5189999999999997,13.363,8.724,3.5189999999999997
+42,M.Y. China, Chinese, 845 Market St. San Francisco, (415) 580-3001, 2    , 2.5  , 4    ,2.5069999999999997,13.222000000000001,8.583,2.5069999999999997
+43,Old Mandarin Islamic, Chinese, 3132 Vicente St. San Francisco, (415) 564-3481, 1    , 2.5  , 2    ,4.971,23.945,19.305999999999997,4.971
+44,R & G Lounge, Chinese, 631 Kearny St. San Francisco, (415) 982-7877, 1    , 2.5  , NaN  ,3.417,13.112,8.472999999999999,3.417
+45,S&T Hong Kong Seafood, Chinese, 2588 Noriega San Francisco, (415) 665-8338, 1    , 2.5  , 1    ,4.038,19.436,14.797,4.038
+46,Spices I, Chinese, 294 Eighth Ave. San Francisco, (415) 752-8884, 1    , 2.5  , 4    ,3.425,17.754,13.115,3.425
+47,Spices II, Chinese, 291 Sixth Ave. San Francisco, (415) 752-8885, 1    , 2.5  , 4    ,3.32,17.649,13.01,3.32
+48,Burma Super Star, Chinese, 309 Clement St. San Francisco, (415) 387-2147, 1    , 2    , 4    ,3.201,17.53,12.890999999999998,3.201
+49,Coriya Restaurant, Chinese, 852 Clement St. San Francisco, (415) 387-7888, 2    , 2    , 4    ,3.509,17.838,13.199000000000002,3.509
+50,Dragon River, Chinese, 5045 Geary Blvd. San Francisco, (415) 387-6698, 1    , 2    , 4    ,3.659,17.988,13.349,3.659
+51,Eliza's, Chinese, 2877 California San Francisco, (415) 621-4819, 2    , 2    , 4    ,2.21,16.54,11.901,2.21
+52,Eric's Restaurant, Chinese, 1500 Church St. San Francisco, (415) 282-0919, 2    , 2    , 4    ,1.245,16.383,11.744000000000002,1.245
+53,Green Garden, Chinese, 434 Broadway San Francisco, (415) 392-8338, 1    , 2    , 2    ,4.041,13.626,8.987,4.041
+54,Hakkasan, Chinese, 1 Kearny St. San Francisco, (415) 829-8148, 1    , 2    , NaN  ,3.073,12.953,8.314,3.073
+55,House of Nanking, Chinese, 919 Kearny St. San Francisco, (415) 421-1429, 1    , 2    , 4    ,3.545,13.241,8.602,3.545
+56,Jai Yun, Chinese, 680 Clay San Francisco, (415) 981-7438, 3    , 2    , 3    ,3.3760000000000003,13.071,8.432,3.3760000000000003
+57,Lucky Fortune Seafood Restaurant, Chinese, 5715 Geary Blvd. San Francisco, (415) 751-2888, 1    , 2    , 2    ,4.062,18.512999999999998,13.874,4.062
+58,Mama Ji's, Chinese, 4416 18th St. San Francisco, (415) 626-4416, 1    , 2    , 2    ,0.32,15.735999999999999,11.097000000000001,0.32
+59,Mayflower, Chinese, 6255 Geary Blvd. San Francisco, (415) 387-8338, 1    , 2    , NaN  ,4.381,18.832,14.193,4.381
+60,Miriwa, Chinese, 728 Pacific San Francisco, (415) 433-5230, 1    , 2    , NaN  ,3.4989999999999997,13.978,9.339,3.4989999999999997
+61,Nan King Road Bistro, Chinese, 1360 9th Ave. San Francisco, (415) 753-2900, 1    , 2    , 2    ,2.176,17.464000000000002,12.825,2.176
+62,Shanghai Dumpling King, Chinese, 3319 Balboa St. San Francisco, (415) 387-2088, 1    , 2    , 3    ,4.688,19.021,14.382,4.688
+63,Taiwan Restaurant, Chinese, 445 Clement St. San Francisco, (415) 387-1789, 1    , 2    , NaN  ,3.335,17.664,13.025,3.335
+64,The Pot Sticker, Chinese, 150 Waverly Place San Francisco, (415) 397-9985, 1    , 2    , 1    ,3.344,13.231,8.592,3.344
+65,Wo Hing General Store, Chinese, 584 Valencia St. San Francisco, (415) 552-2510, 2    , 2    , 4    ,1.1,14.993,10.354000000000001,1.1
+66,Y. Ben House, Chinese, 835 Pacific Ave. San Francisco, (415) 397-3168, 1    , 2    , 4    ,3.842,14.055,9.416,3.842
+67,Mission Chinese Food, Chinese, 2234 Mission St. San Francisco, (415) 863-2800, 2    , 1.5  , 4    ,1.143,15.035,10.395999999999999,1.143
+68,Cheung Hing, Chinese, 2339 Noriega St. San Francisco, (415) 665-3271, 1    , 3    , 2    ,3.891,19.289,14.65,3.891
+69,China First, Chinese, 336 Clement St. San Francisco, (415) 387-8370, 1    , 2.5  , 3    ,3.2239999999999998,17.553,12.914000000000001,3.2239999999999998
+70,Hakka Restaurant, Chinese, 4401 Cabrillo St. San Francisco, (415) 876-6898, 2    , 3    , 2    ,5.188,19.521,14.882,5.188
+71,Henry's Hunan Restaurant, Chinese, 110 Natoma St. San Francisco, (415) 456-4999, 2    , 4    , 1    ,3.7569999999999997,12.482000000000001,7.843,3.7569999999999997
+72,Hunan Cafe No. 2, Chinese, 4450 Cabrillo St. San Francisco, (415) 751-1283, 1    , 3    , 2    ,5.228,19.561,14.922,5.228
+73,Just Won Ton, Chinese, 1241 Vicente St. San Francisco, (415) 681-2999, 1    , 2.5  , 2    ,3.467,20.820999999999998,16.182000000000002,3.467
+74,Tsing Tao Chinese, Chinese, 3107 Clement St San Francisco, (415) 387-2344, 1    , 2.5  , 2    ,4.956,19.289,14.65,4.956
+75,Shanghai House, Chinese, 3641 Balboa St. San Francisco, (415) 831-9288, 1    , 2.5  , 2    ,4.864,19.197,14.558,4.864
+76,Shangri-La Vegetarian Chinese, Chinese, 2026 Irving St. San Francisco, (415) 731-2548, 1    , 3    , 2    ,2.9730000000000003,18.108,13.469000000000001,2.9730000000000003
+77,Kappa, Japanese, 1700 Post St. San Francisco, (415) 673-6004, 3    , 3    , 1    ,2.4130000000000003,15.972000000000001,11.333,2.4130000000000003
+78,Keiko A Nob Hill, Japanese, 1250 Jones St. San Francisco, (415) 829-7141, 4    , 3    , 1    ,2.97,13.607999999999999,8.969,2.97
+79,Kyo-ya, Japanese, 2 New Montgomery San Francisco, (415) 546-5090, 4    , 3    , 1    ,3.8789999999999996,12.765999999999998,8.127,3.8789999999999996
+80,Nojo , Japanese, 231 Franklin St. San Francisco, (415) 896-4587, 2    , 3    , 5    ,1.744,15.104000000000001,10.465,1.744
+81,Yoshi's San Francisco, Japanese, 1330 Fillmore St. San Francisco, (415) 655-5600, 3    , 3    , 2    ,2.0069999999999997,15.605,10.966,2.0069999999999997
+82,Domo , Japanese, 511 Laguna St. San Francisco, (415) 861-8887, 2    , 2.5  , 3    ,1.5030000000000001,14.883,10.244000000000002,1.5030000000000001
+83,Eiji , Japanese, 317 Sanchez St. San Francisco, (415) 558-8149, 2    , 2.5  , 2    ,0.6859999999999999,15.218,10.579,0.6859999999999999
+84,Ichi Sushi + Ni Restaurant, Japanese, 3282 Mission St. San Francisco, (415) 525-4750, 3    , 2.5  , 4    ,1.786,16.133,11.494000000000002,1.786
+85,Izakaya Sozai, Japanese, 1500 Irving St. San Francisco, (415) 742-5122, 2    , 2.5  , 3    ,2.778,17.813,13.174000000000001,2.778
+86,Izakaya Yuzuki, Japanese, 598 Guerrero St. San Francisco, (415) 556-9898, 3    , 2.5  , 4    ,1.068,15.463,10.824000000000002,1.068
+87,Juban, Japanese, 1581 Webster St. San Francisco, (415) 776-5822, 1    , 2.5  , 2    ,2.3280000000000003,15.745,11.106,2.3280000000000003
+88,Kiji , Japanese, 1009 Guerrero St. San Francisco, (415) 282-0400, 2    , 2.5  , 2    ,1.321,15.704,11.065,1.321
+89,Koo  , Japanese, 408 Irving St. San Francisco, (415) 731-7077, 2    , 2.5  , 3    ,2.032,17.169,12.53,2.032
+90,Lunc , Japanese, 704 Sutter St. San Francisco, (415) 771-0803, 2    , 2.5  , NaN  ,2.7510000000000003,14.052999999999999,9.414,2.7510000000000003
+91,Maki , Japanese, 1825 Post St. San Francisco, (415) 921-5215, 2    , 2.5  , 3    ,2.311,15.779000000000002,11.14,2.311
+92,Minako, Japanese, 2154 Mission St. San Francisco, (415) 864-1888, 2    , 2.5  , 2    ,1.1440000000000001,14.940999999999999,10.302,1.1440000000000001
+93,Nagano Sushi, Japanese, 3727 Geary Blvd. San Francisco, (415) 221-9811, 2    , 2.5  , 2    ,2.9019999999999997,17.230999999999998,12.592,2.9019999999999997
+94,O Izakaya, Japanese, 1625 Post St. San Francisco, (415) 614-5431, 2    , 2.5  , 2    ,2.491,15.894,11.255,2.491
+95,Ozumo, Japanese, 161 Steuart St. San Francisco, (415) 882-1333, 4    , 2.5  , 3    ,4.297,12.74,8.101,4.297
+96,Roka Akor, Japanese, 801 Montgomery Street San Francisco, (415) 362-8887, 4    , 2.5  , 4    ,3.435,13.13,8.491,3.435
+97,Skool, Japanese, 1725 Alameda St. San Francisco, (415) 255-8800, 3    , 2.5  , 4    ,2.459,13.593,8.954,2.459
+98,Takara, Japanese, 22 Peace Plaza San Francisco, (415) 921-2000, 2    , 2.5  , 2    ,2.427,15.958,11.319,2.427
+99,Alexander's Steakhouse, Japanese, 448 Brannan St. San Francisco, (415) 495-1111, 4    , 2    , 4    ,3.6260000000000003,12.578,7.939,3.6260000000000003
+100,Blowfish Sushi to Die For, Japanese, 2170 Bryant St. San Francisco, (415) 285-3848, 2    , 2    , 4    ,1.8459999999999999,14.205,9.566,1.8459999999999999
+101,Daimaru Sushi, Japanese, 290 Sanchez San Francisco, (415) 863-9128, 2    , 2    , 3    ,0.7120000000000001,15.190999999999999,10.552,0.7120000000000001
+102,Ebisu, Japanese, 1283 Ninth Ave. San Francisco, (415) 566-1770, 2    , 2    , 4    ,2.273,17.367,12.728,2.273
+103,Hana Zen, Japanese, 115 Cyril Magnin San Francisco, (415) 421-2101, 2    , 2    , 2    ,2.544,13.571,8.932,2.544
+104,Iroha, Japanese, 1728 Buchanan St. San Francisco, (415) 922-0321, 1    , 2    , 2    ,2.4930000000000003,14.335,9.696,2.4930000000000003
+105,Izakaya Hashiboro Kou, Japanese, 1560 Fillmore St. San Francisco, (415) 441-9294, 3    , 2    , 3    ,2.1830000000000003,15.78,11.140999999999998,2.1830000000000003
+106,Izakaya Roku, Japanese, 1819 Market St. San Francisco, (415) 861-6500, 2    , 2    , 3    ,1.325,14.565,9.926,1.325
+107,Kabuto, Japanese, 5121 Geary Blvd. San Francisco, (415) 752-5652, 2    , 2    , 3    ,3.716,18.045,13.405999999999999,3.716
+108,Kappou Gomi, Japanese, 5524 Geary Blvd. San Francisco, (415) 221-5353, 3    , 2    , 1    ,4.272,18.723,14.084000000000001,4.272
+109,Kitaro Japanese Restaurant, Japanese, 5723 Geary Blvd. San Francisco, (415) 386-2777, 1    , 2    , 3    ,4.058,18.509,13.87,4.058
+110,Mifune, Japanese, 1737 Post St. San Francisco, (415) 922-0337, 1    , 2    , NaN  ,2.412,15.972999999999999,11.334000000000001,2.412
+111,Nombe, Japanese, 2491 Mission St. San Francisco, (415) 681-7150, 2    , 2    , 4    ,1.419,15.311,10.672,1.419
+112,Sakesan Sushi & Bistro, Japanese, 626 Clement St. San Francisco, (415) 876-6313, 3    , 2    , 3    ,3.389,17.718,13.079,3.389
+113,Sudachi, Japanese, 1217 Sutter St. San Francisco, (415) 931-6951, 2    , 2    , 2    ,2.5,13.944,9.305,2.5
+114,Tataki, Japanese, 2815 California St. San Francisco, (415) 931-1182, 3    , 2    , 4    ,2.154,16.484,11.845,2.154
+115,Tsunami Sushi & Sake Bar, Japanese, 1306 Fulton St. San Francisco, (415) 567-7664, 2    , 2    , 4    ,1.369,15.699000000000002,11.06,1.369
+116,Hotei, Japanese, 1290 Ninth Ave. San Francisco, (415) 753-6045, 1    , 1.5  , 3    ,2.263,17.378,12.739,2.263
+117,Moki's Sushi and Pacific Grill, Japanese, 615 Cortland Ave. San Francisco, (415) 970-9336, 2    , 1.5  , 3    ,2.327,16.105999999999998,11.467,2.327
+118,Coco Bang, Korean, 550 Taylor St. San Francisco, (415) 292-5144, 2    , 2    , 3    ,2.8089999999999997,13.432,8.793,2.8089999999999997
+119,Korea House, Korean, 1640 Post St. San Francisco, (415) 563-1388, 3    , 2    , 3    ,2.481,15.902999999999999,11.264000000000001,2.481
+120,Seoul Garden, Korean, 22 Peace Plaza San Francisco, (415) 563-7664, 2    , 2    , 3    ,2.427,15.958,11.319,2.427
+121,A16  , Italian, 2355 Chestnut St. San Francisco, (415) 771-2216, 3    , 3    , 4    ,3.008,16.064,11.425,3.008
+122,Acquerello, Italian, 1722 Sacramento St. San Francisco, (415) 567-5432, 4    , 4.5  , 1    ,2.763,14.093,9.454,2.763
+123,Ala Romana, Italian, 1098 Jackson St. San Francisco, (415) 292-3699, 3    , 2    , 4    ,3.4210000000000003,13.835999999999999,9.197000000000001,3.4210000000000003
+124,Albona Ristorante Istriano, Italian, 545 Francisco St. San Francisco, (415) 441-1040, 2    , 2.5  , 3    ,4.1930000000000005,14.459000000000001,9.82,4.1930000000000005
+125,Allegro, Italian, 1701 Jones St. San Francisco, (415) 928-4002, 2    , 2.5  , 2    ,3.34,13.879000000000001,9.24,3.34
+126,Amarena, Italian, 2162 Larkin St. San Francisco, (415) 447-0441, 2    , 1.5  , 3    ,3.2889999999999997,14.602,9.963,3.2889999999999997
+127,Americano Restaurant and Lounge, Italian, 8 Mission St. San Francisco, (415) 278-3777, 4    , 2.5  , 3    ,4.346,12.789000000000001,8.15,4.346
+128,Aperto, Italian, 1434 18th St. San Francisco, (415) 252-1625, 2    , 2    , 4    ,2.807,14.210999999999999,9.572000000000001,2.807
+129,Armani Cafe, Italian, 1 Grant Ave. San Francisco, (415) 677-9010, 2    , 2.5  , 2    ,2.945,13.089,8.45,2.945
+130,Barbacco, Italian, 230 California St. San Francisco, (415) 955-1919, 2    , 3    , 4    ,3.2889999999999997,12.753,8.113999999999999,3.2889999999999997
+131,Bella Trattoria, Italian, 3854 Geary Blvd. San Francisco, (415) 221-0305, 3    , 2.5  , 2    ,3.025,17.354,12.715,3.025
+132,Beretta, Italian, 1199 Valencia St. San Francisco, (415) 695-1199, 2    , 3    , 4    ,1.517,15.661,11.022,1.517
+133,Brindisi Cucina di Mare, Italian, 88 Belden Place San Francisco, (415) 593-8000, 2    , 2.5  , 3    ,3.2560000000000002,12.952,8.312999999999999,3.2560000000000002
+134,Cafe Altano, Italian, 602 Hayes St. San Francisco, (415) 252-1200, 2    , 2.5  , 2    ,1.546,14.925999999999998,10.287,1.546
+135,Cafe Tiramisu, Italian, 28 Belden Place San Francisco, (415) 421-7044, 3    , 2.5  , 3    ,3.275,13.071,8.432,3.275
+136,Cafe Zoetrope, Italian, 916 Kearny St. San Francisco, (415) 291-1700, 2    , 2    , 2    ,3.5469999999999997,13.243,8.604,3.5469999999999997
+137,Caffe d'Melanio, Italian, 1314 Ocean Ave. San Francisco, (415) 333-3665, 2    , 2.5  , 2    ,4.188,19.271,14.632,4.188
+138,Caffe Macaroni, Italian, 59 Columbus San Francisco, (415) 956-9737, 2    , 2.5  , 2    ,3.4419999999999997,13.138,8.499,3.4419999999999997
+139,Campanula, Italian, 701 Union St. San Francisco, (415) 829-7766, 2    , 1.5  , 4    ,3.91,13.600999999999999,8.962,3.91
+140,Capo's, Italian, 641 Vallejo St. San Francisco, (415) 986-8998, 3    , 2.5  , 4    ,3.9210000000000003,13.399000000000001,8.76,3.9210000000000003
+141,Capp's Corner, Italian, 1600 Powell St. San Francisco, (415) 989-2589, 2    , 2    , 3    ,3.861,13.645,9.006,3.861
+142,Chow , Italian, 215 Church St. San Francisco, (415) 552-2469, 1    , 3    , 3    ,0.91,14.962,10.323,0.91
+143,Claudine, Italian, 8 Claude Lane San Francisco, (415) 362-1988, 3    , 2.5  , 3    ,3.093,13.048,8.408999999999999,3.093
+144,Credo, Italian, 360 Pine St. San Francisco, (415) 693-0360, 4    , 1    , 5    ,3.14,12.835,8.196,3.14
+145,Cupola, Italian, 845 Market St. San Francisco, (415) 896-5600, 2    , 2.5  , 4    ,2.5069999999999997,13.222000000000001,8.583,2.5069999999999997
+146,Da Flora, Italian, 701 Columbus Ave. San Francisco, (415) 981-4664, 3    , 2.5  , 3    ,4.1419999999999995,13.667,9.027999999999999,4.1419999999999995
+147,Delfina, Italian, 3621 18th St. San Francisco, (415) 552-4055, 3    , 3    , 4    ,0.825,15.259,10.62,0.825
+148,Dino's Pizza & Dining, Italian, 2101 Fillmore St. San Francisco, (415) 922-4700, 2    , 2.5  , 3    ,2.508,16.102999999999998,11.464,2.508
+149,E'Angelo, Italian, 2234 Chestnut St. San Francisco, (415) 567-6164, 2    , 2.5  , 4    ,3.1210000000000004,15.950999999999999,11.312000000000001,3.1210000000000004
+150,Farina, Italian, 3560 18th St. San Francisco, (415) 565-0360, 4    , 1.5  , 3    ,0.9009999999999999,15.182,10.543,0.9009999999999999
+151,Figaro, Italian, 414 Columbus Ave. San Francisco, (415) 398-1300, 2    , 2    , 3    ,4.024,13.55,8.911,4.024
+152,Fino , Italian, 624 Post St. San Francisco, (415) 928-2080, 2    , 2    , 2    ,2.815,13.842,9.203,2.815
+153,Firewood Cafe, Italian, 4248 18th St. San Francisco, (415) 252-0999, 1    , 2.5  , 2    ,0.22399999999999998,15.639000000000001,11.0,0.22399999999999998
+154,Flour + Water, Italian, 2401 Harrison St. San Francisco, (415) 826-7000, 3    , 3    , 4    ,1.681,14.386,9.747,1.681
+155,Gialina, Italian, 2842 Diamond St San Francisco, (415) 239-8500, 2    , 3    , 5    ,2.335,18.148,13.509,2.335
+156,Gioia, Italian, 2240 Polk St. San Francisco, (415) 359-0971, 3    , 2.5  , 5    ,3.195,14.69,10.051,3.195
+157,Il Fornaio, Italian, 1265 Battery St. San Francisco, (415) 986-0100, 2    , 2    , 3    ,3.929,13.738,9.099,3.929
+158,Jackson Fillmore, Italian, 2506 Fillmore St. San Francisco, (415) 346-5288, 2    , 1.5  , 4    ,2.766,15.419,10.78,2.766
+159,Kuleto's, Italian, 221 Powell St. San Francisco, (415) 397-7720, 3    , 1    , 4    ,2.657,13.311,8.672,2.657
+160,L'Osteria Del Forno, Italian, 519 Columbus Ave. San Francisco, (415) 982-1124, 2    , 2    , 4    ,3.964,13.49,8.851,3.964
+161,La Ciccia, Italian, 291 30th St. San Francisco, (415) 550-8114, 3    , 2.5  , 4    ,1.569,16.531,11.892000000000001,1.569
+162,La Nebbia, Italian, 1781 Church St. San Francisco, (415) 874-9924, 2    , 2.5  , 4    ,1.551,16.541,11.902000000000001,1.551
+163,La Traviata, Italian, 2854 Mission St. San Francisco, (415) 282-0500, 2    , 2.5  , 3    ,1.811,15.704,11.065,1.811
+164,Leopold's, Italian, 2400 Polk St. San Francisco, (415) 474-2000, 2    , 2.5  , 5    ,3.2939999999999996,14.786,10.147,3.2939999999999996
+165,Little Joe's, Italian, 85 Fifth St. San Francisco, (415) 433-4343, 2    , 2    , 3    ,2.569,13.197000000000001,8.558,2.569
+166,Local Kitchen & Wine Merchant, Italian, 330 First St. San Francisco, (415) 777-4200, 2    , 2.5  , 4    ,3.717,12.165,7.526,3.717
+167,Locanda, Italian, 557 Valencia St. San Francisco, (415) 863-6800, 3    , 2.5  , 4    ,1.131,14.960999999999999,10.322000000000001,1.131
+168,Luce , Italian, 888 Howard St. San Francisco, (415) 616-6566, 4    , 2.5  , 2    ,2.7089999999999996,13.097999999999999,8.459,2.7089999999999996
+169,Lupa , Italian, 4109 24th St. San Francisco, (415) 282-5872, 2    , 2    , 3    ,0.564,16.218,11.579,0.564
+170,Macaroni Sciue Sciue, Italian, 124 Columbus Ave. San Francisco, (415) 217-8400, 1    , 2    , 3    ,3.467,13.163,8.524,3.467
+171,Manzoni, Italian, 2788 Diamond St. San Francisco, (415) 334-2251, 3    , 2    , 3    ,2.271,18.204,13.565,2.271
+172,Mescolanza, Italian, 2221 Clement St. San Francisco, (415) 668-2221, 2    , 2    , 3    ,4.32,18.774,14.135,4.32
+173,Mozzeria, Italian, 3228 16th St. San Francisco, (415) 489-0963, 2    , 2    , 3    ,1.034,15.06,10.421,1.034
+174,Nob Hill Cafe, Italian, 1152 Taylor St. San Francisco, (415) 776-6500, 2    , 2    , 3    ,3.284,13.699000000000002,9.06,3.284
+175,North Beach Restaurant, Italian, 1512 Stockton St. San Francisco, (415) 392-1700, 3    , 2    , 2    ,4.066,14.616,9.977,4.066
+176,Original Joe's, Italian, 601 Union St. San Francisco, (415) 775-4877, 3    , 2.5  , 3    ,4.013,14.562000000000001,9.923,4.013
+177,Osteria, Italian, 3277 Sacramento St. San Francisco, (415) 771-5030, 3    , 1.5  , 2    ,2.5660000000000003,17.034000000000002,12.395,2.5660000000000003
+178,Pane e Vino, Italian, 1715 Union St. San Francisco, (415) 346-2111, 3    , 1.5  , 3    ,3.388,15.065999999999999,10.427,3.388
+179,Park Chow, Italian, 1240 Ninth Ave. San Francisco, (415) 665-9912, 1    , 3    , 3    ,2.278,17.313,12.674000000000001,2.278
+180,Saison, American, 178 Townsend St. San Francisco, (415) 828-7990, 4    , 4    , 2    ,3.694,12.562999999999999,7.9239999999999995,3.694
+181,Gary Danko, American, 800 North Point St. San Francisco, (415) 749-2060, 4    , 3.5  , 3    ,1.92,14.23,9.591000000000001,1.92
+182,Michael Mina, American, 252 California St. San Francisco, (415) 397-9222, 4    , 3.5  , 4    ,3.285,12.749,8.11,3.285
+183,One Market, American, 1 Market St. San Francisco, (415) 777-5577, 4    , 3.5  , 4    ,4.513,12.956,8.317,4.513
+184,Prospect, American, 300 Spear St. San Francisco, (415) 247-7770, 3    , 3.5  , 4    ,4.0280000000000005,12.47,7.831,4.0280000000000005
+185,Sons & Daughters, American, 708 Bush St. San Francisco, (415) 391-8311, 4    , 3.5  , 2    ,2.915,13.100999999999999,8.462,2.915
+186,Spruce, American, 3640 Sacramento St. San Francisco, (415) 931-5100, 4    , 3.5  , 3    ,2.872,17.202,12.562999999999999,2.872
+187,Abbot's Cellar, American, 742 Valencia St. San Francisco, (415) 626-8700, 4    , 3    , 4    ,1.021,15.165,10.526,1.021
+188,Bix  , American, 56 Gold St. San Francisco, (415) 433-6300, 4    , 3    , 4    ,3.636,13.661,9.022,3.636
+189,Boulevard, American, 1 Mission St. San Francisco, (415) 543-6084, 3    , 3    , 3    ,4.363,12.806,8.167,4.363
+190,Bourbon Steak, American, 335 Powell Street San Francisco, (415) 397-3003, 4    , 3    , 4    ,2.74,13.261,8.622,2.74
+191,Chenery Park, American, 683 Chenery St. San Francisco, (415) 337-8537, 2    , 3    , 3    ,2.2769999999999997,18.211,13.572000000000001,2.2769999999999997
+192,Chow , American, 215 Church St. San Francisco, (415) 552-2469, 1    , 3    , 3    ,0.91,14.962,10.323,0.91
+193,Commonwealth, American, 2224 Mission St. San Francisco, (415) 355-1500, 2    , 3    , 5    ,1.133,15.026,10.387,1.133
+194,Frances, American, 3870 17th St. San Francisco, (415) 621-3870, 3    , 3    , 5    ,0.51,15.402000000000001,10.763,0.51
+195,Marlowe, American, 330 Townsend St. San Francisco, (415) 974-5599, 3    , 3    , 5    ,3.091,13.06,8.421,3.091
+196,Nopalito, Mexican, 306 Broderick St. San Francisco, (415) 437-0303, 2    , 3    , 3    ,1.197,15.527000000000001,10.888,1.197
+197,Park Chow, American, 1240 Ninth Ave. San Francisco, (415) 665-9912, 1    , 3    , 3    ,2.278,17.313,12.674000000000001,2.278
+198,Park Tavern, American, 1652 Stockton St. San Francisco, (415) 989-7300, 3    , 3    , 4    ,4.058,14.515999999999998,9.877,4.058
+199,Range, American, 842 Valencia St. San Francisco, (415) 282-8283, 4    , 3    , 4    ,1.1340000000000001,15.277999999999999,10.639000000000001,1.1340000000000001
+200,St. Vincent, American, 1270 Valencia St. San Francisco, (415) 285-1200, 3    , 3    , 4    ,1.595,15.739,11.1,1.595
+201,The Cavalier, American, 360 Jessie St. San Francisco, (415) 321-6000, 3    , 3    , 5    ,2.613,13.241,8.602,2.613
+202,Tosca Cafe, American, 242 Columbus Ave. San Francisco, (415) 986-9651, 4    , 3    , 4    ,4.163,13.784,9.145,4.163
+203,Town Hall, American, 342 Howard St. San Francisco, (415) 908-3900, 4    , 3    , 5    ,3.971,12.419,7.78,3.971
+204,Trick Dog, American, 3010 20th St. San Francisco, (415) 471-2999, 1    , 3    , 5    ,1.757,14.293,9.654,1.757
+205,Trou Normand, American, 140 New Montgomery St. San Francisco, (415) 975-0976, 3    , 3    , 5    ,3.7110000000000003,12.61,7.971,3.7110000000000003
+206,Wayfare Tavern, American, 558 Sacramento St. San Francisco, (415) 772-9060, 3    , 3    , 4    ,3.275,12.97,8.331,3.275
+207,1300 on Fillmore, American, 1300 Fillmore San Francisco, (415) 771-7100, 4    , 2.5  , 3    ,1.9880000000000002,15.585999999999999,10.947000000000001,1.9880000000000002
+208,Baker & Banker, American, 1701 Octavia St. San Francisco, (415) 351-2500, 4    , 2.5  , 4    ,2.498,14.097999999999999,9.459,2.498
+209,Bar Agricole, American, 355 11th St. San Francisco, (415) 355-9400, 4    , 2.5  , 4    ,2.093,13.702,9.062999999999999,2.093
+210,Bar Jules, American, 609 Hayes St. San Francisco, (415) 621-5482, 4    , 2.5  , 4    ,1.5519999999999998,14.932,10.293,1.5519999999999998
+211,Circa, American, 2001 Chestnut St. San Francisco, (415) 351-0175, 2    , 2.5  , 4    ,3.3160000000000003,15.755999999999998,11.117,3.3160000000000003
+212,Comstock Saloon, American, 155 Columbus Ave. San Francisco, (415) 617-0071, 3    , 2.5  , 5    ,3.475,13.171,8.532,3.475
+213,Corner Store, American, 5 Masonic Avenue San Francisco, (415) 359-1800, 2    , 2.5  , 4    ,2.217,16.548,11.909,2.217
+214,Ella's, American, 500 Presidio Ave. San Francisco, (415) 441-5669, 2    , 2.5  , 2    ,2.488,16.956,12.317,2.488
+215,Fable, American, 558 Castro St. San Francisco, (415) 590-2404, 3    , 2.5  , 3    ,0.174,15.602,10.963,0.174
+216,Farmer Brown, American, 25 Mason St. San Francisco, (415) 409-3276, 3    , 2.5  , 4    ,2.375,13.402000000000001,8.763,2.375
+217,Firefly, American, 4288 24th St. San Francisco, (415) 821-7652, 3    , 2.5  , 3    ,0.768,16.422,11.783,0.768
+218,Fog City, American, 1300 Battery St. San Francisco, (415) 982-2000, 3    , 2.5  , 4    ,3.965,13.775,9.136000000000001,3.965
+219,Hard Water, American, Pier 3 on the Embarcadero San Francisco, (415) 392-3021, 3    , 2.5  , 5    ,1.92,14.23,9.591000000000001,1.92
+220,Hog & Rocks, American, 3431 19th St. San Francisco, (415) 550-8627, 2    , 2.5  , 5    ,1.2429999999999999,15.135,10.495999999999999,1.2429999999999999
+221,Kate's Kitchen, American, 471 Haight St. San Francisco, (415) 626-3984, 1    , 2.5  , 3    ,1.37,14.908,10.269,1.37
+222,Lark Creek Steak, American, 845 Market St. San Francisco, (415) 593-4100, 4    , 2.5  , 3    ,2.5069999999999997,13.222000000000001,8.583,2.5069999999999997
+223,Luna Park, American, 694 Valencia St. San Francisco, (415) 553-8584, 2    , 2.5  , 3    ,0.9790000000000001,15.113,10.474,0.9790000000000001
+224,Maverick, American, 3316 17th St. San Francisco, (415) 863-3061, 3    , 2.5  , 4    ,1.181,14.901,10.262,1.181
+225,Olea , American, 1494 California St. San Francisco, (415) 202-8521, 2    , 2.5  , 2    ,2.8139999999999996,13.765,9.126,2.8139999999999996
+226,Oola Restaurant & Bar, American, 860 Folsom St. San Francisco, (415) 995-2061, 3    , 2.5  , 3    ,3.3489999999999998,12.757,8.118,3.3489999999999998
+227,Outerlands, American, 4001 Judah Street San Francisco, (415) 661-6140, 3    , 2.5  , 5    ,4.238,19.631,14.992,4.238
+228,Plow , American, 1299 18th St. San Francisco, (415) 821-7569, 2    , 2.5  , 2    ,2.8789999999999996,14.14,9.501,2.8789999999999996
+229,PlumpJack's Balboa Cafe, American, 3199 Fillmore St. San Francisco, (415) 921-3944, 2    , 2.5  , 5    ,3.2030000000000003,15.879000000000001,11.24,3.2030000000000003
+230,Public House, American, 24 Willie Mays Plaza San Francisco, (415) 644-0240, 2    , 2.5  , 5    ,4.004,12.614,7.975,4.004
+231,RN74 , American, 301 Mission St. San Francisco, (415) 543-7474, 4    , 2.5  , 4    ,3.3489999999999998,12.583,7.944,3.3489999999999998
+232,Salt House, American, 545 Mission St. San Francisco, (415) 543-8900, 4    , 2.5  , 4    ,3.1460000000000004,12.517999999999999,7.879,3.1460000000000004
+233,Sam's Grill, American, 374 Bush St. San Francisco, (415) 421-0594, 3    , 2.5  , 3    ,3.117,12.812000000000001,8.173,3.117
+234,Stones Throw, American, 1896 Hyde St. San Francisco, (415) 674-4343, 4    , 2.5  , 4    ,3.262,14.162,9.523,3.262
+235,Supperclub, American, 657 Harrison St. San Francisco, (415) 348-0900, 4    , 2.5  , 4    ,3.363,12.306,7.667000000000001,3.363
+236,Sutro's at the Cliff House, American, 1090 Point Lobos San Francisco, (415) 386-3330, 4    , 2.5  , 3    ,1.92,14.23,9.591000000000001,1.92
+237,Tadich Grill, American, 240 California St. San Francisco, (415) 391-1849, 2    , 2.5  , 5    ,3.281,12.745,8.106,3.281
+238,TBD  , American, 1077 Mission St. San Francisco, (415) 431-1826, 3    , 2.5  , 5    ,2.248,13.487,8.847999999999999,2.248
+239,The Blue Plate, American, 3218 Mission St. San Francisco, (415) 282-6777, 3    , 2.5  , 4    ,1.774,16.07,11.431,1.774
+240,The Rotunda, American, 150 Stockton St. San Francisco, (415) 362-4777, 3    , 2.5  , 3    ,2.8080000000000003,13.373,8.734,2.8080000000000003
+241,Tipsy Pig, American, 2231 Chestnut St. San Francisco, (415) 292-2300, 2    , 2.5  , 5    ,3.1260000000000003,15.946,11.307,3.1260000000000003
+242,Universal Cafe, American, 2814 19th St. San Francisco, (415) 821-4608, 3    , 2.5  , 5    ,1.692,14.177,9.538,1.692
+243,Waterfront Restaurant and Cafe, American, Pier 7 on the Embarcadero San Francisco, (415) 391-2696, 3    , 2.5  , 4    ,1.92,14.23,9.591000000000001,1.92
+244,Woodward's Garden, American, 1700 Mission St. San Francisco, (415) 621-7122, 3    , 2.5  , 4    ,1.6480000000000001,14.216,9.577,1.6480000000000001
+245,1760 , American, 1760 Polk St. San Francisco, (415) 359-1212, 3    , 2    , 5    ,2.883,14.022,9.383,2.883
+246,21st Amendment Brewery Cafe, American, 563 Second St. San Francisco, (415) 369-0900, 2    , 2    , 5    ,3.655,12.265,7.626,3.655
+247,Bar Crudo, American, 655 Divisadero St. San Francisco, (415) 409-0679, 2    , 2    , 4    ,1.2690000000000001,15.599,10.96,1.2690000000000001
+248,Blue , American, 2337 Market St. San Francisco, (415) 863-2583, 1    , 2    , 5    ,0.672,15.329,10.69,0.672
+249,BlueJay Cafe, American, 919 Divisadero St. San Francisco, (415) 447-6066, 1    , 2    , 2    ,1.454,15.784,11.145,1.454
+250,Bluestem Brasserie, American, 1 Yerba Buena Lane San Francisco, (415) 547-1111, 3    , 2    , 4    ,2.665,13.003,8.363999999999999,2.665
+251,Brazen Head, American, 3166 Buchanan St. San Francisco, (415) 921-7600, 2    , 2    , 5    ,3.3739999999999997,15.708,11.069,3.3739999999999997
+252,Burritt Room + Tavern, American, 417 Stockton St. San Francisco, (415) 400-0561, 4    , 2    , 4    ,2.963,13.154000000000002,8.515,2.963
+253,Candybar, American, 1335 Fulton St. San Francisco, (415) 673-7078, 3    , 2    , 3    ,1.399,15.729000000000001,11.09,1.399
+254,Citizen's Band, American, 1198 Folsom St. San Francisco, (415) 556-4901, 3    , 2    , 4    ,2.256,13.462,8.823,2.256
+255,Fly  , American, 762 Divisadero St. San Francisco, (415) 931-4359, 1    , 2    , 5    ,1.409,15.73,11.091,1.409
+256,Garaje, American, 475 Third St. San Francisco, (415) 644-0838, 1    , 2    , 5    ,3.38,12.455,7.816,3.38
+257,Heirloom Cafe, American, 2500 Folsom St. San Francisco, (415) 821-2500, 3    , 2    , 3    ,1.6780000000000002,14.616,9.977,1.6780000000000002
+258,Herbivore, American, 531 Divisadero St. San Francisco, (415) 885-7133, 1    , 2    , 3    ,1.188,15.517999999999999,10.879000000000001,1.188
+259,3Hillstone (formerly Houston's), American, 1800 Montgomery St. San Francisco, (415) 392-9280, 3    , 2    , 3    ,5.477,13.92,9.281,5.477
+260,House of Prime Rib, American, 1906 Van Ness San Francisco, (415) 885-4605, 3    , 2    , 3    ,2.935,14.845999999999998,10.207,2.935
+261,Ironside, American, 680A Second St. San Francisco, (415) 896-1127, 3    , 2    , 4    ,3.801,12.411,7.772,3.801
+262,asper's Corner Tap, American, 401 Taylor St. San Francisco, (415) 775-7979, 2    , 2    , 4    ,2.688,13.533,8.894,2.688
+263,Joanie's Happy Days Diner, American, 1329 Columbus Ave. San Francisco, (415) 928-4343, 1    , 2    , 2    ,4.085,14.690999999999999,10.052,4.085
+264,Magnolia Gastropub & Brewery, American, 1398 Haight St. San Francisco, (415) 864-7468, 2    , 2    , 5    ,1.429,15.76,11.120999999999999,1.429
+265,Mason Pacific, American, 1358 Mason Street San Francisco, (415) 374-7185, 3    , 2    , 3    ,3.55,13.96,9.321,3.55
+266,Maxfield's, American, 2 New Montgomery St. San Francisco, (415) 546-5089, 2    , 2    , 3    ,3.8789999999999996,12.765999999999998,8.127,3.8789999999999996
+267,Miller's East Coast West Delicatessen, American, 1725 Polk St. San Francisco, (415) 563-3542, 2    , 2    , 1    ,2.861,13.999,9.36,2.861
+268,Monk's Kettle, American, 3141 16th St. San Francisco, (415) 865-9523, 2    , 2    , 5    ,1.1420000000000001,14.953,10.314,1.1420000000000001
+269,Nob Hill Grille, American, 969 Hyde St. San Francisco, (415) 474-5985, 2    , 2    , 1    ,2.699,13.6,8.961,2.699
+270,Palace, American, 3047 Mission Street San Francisco, (415) 666-5218, 2    , 2    , 3    ,1.696,15.878,11.239,1.696
+271,2Paragon Restaurant & Bar, American, 701 Second St. San Francisco, (415) 537-9020, 2    , 2    , 3    ,3.823,12.433,7.794,3.823
+272,Park Chalet, American, 1000 Great Hwy. San Francisco, (415) 386-8439, 2    , 2    , 4    ,5.51,19.843,15.204,5.51
+273,Perry's on the Embarcadero, American, 155 Steuart St. San Francisco, (415) 495-6500, 2    , 2    , 4    ,4.314,12.757,8.118,4.314
+274,Presidio Social Club, American, 563 Ruger St. San Francisco, (415) 885-1888, 3    , 2    , 4    ,3.283,16.57,11.931,3.283
+275,Morton's the Steakhouse, American, 400 Post St. San Francisco, (415) 986-5830, 3    , 1    , 5    ,2.802,13.17,8.531,2.802
+276,Globe, American, 290 Pacific San Francisco, (415) 391-4132, 2    , 1    , 4    ,3.569,13.033,8.394,3.569
+277,Boudin at the Wharf, American, 160 Jefferson St. San Francisco, (415) 928-1849, 3    , 1    , 2    ,4.3660000000000005,14.642999999999999,10.004,4.3660000000000005
+278,Washington Square Bar & Grill, American, 1707 Powell St. San Francisco, (415) 433-1188, 3    , 1.5  , 4    ,3.926,13.593,8.954,3.926
+279,Per Diem, American, 43 Sutter St. San Francisco, (415) 989-0300, 3    , 1.5  , 5    ,3.032,12.912,8.273,3.032
+280,'Wichcraft, American, 868 Mission St. San Francisco, (415) 593-3895, 1    , 1.5  , 3    ,2.616,13.324000000000002,8.685,2.616
+281,Woodhouse Fish Company, American, 2073 Market St. San Francisco, (415) 437-2722, 2    , 2    , 1    ,0.872,14.91,10.270999999999999,0.872
+282,Beach Chalet, American, 1000 Great Hwy. San Francisco, (415) 386-8439, 1    , 1.5  , 3    ,5.51,19.843,15.204,5.51
+283,Q    , American, 225 Clement St. San Francisco, (415) 752-2298, 2    , 2    , 4    ,3.1519999999999997,17.480999999999998,12.842,3.1519999999999997
+284,Rick's Restaurant & Bar, American, 1940 Taraval St. San Francisco, (415) 731-8900, 2    , 2    , 3    ,3.819,21.884,17.245,3.819
+285,Sauce, American, 131 Gough St. San Francisco, (415) 252-1369, 2    , 2    , 3    ,1.469,14.802999999999999,10.164,1.469
+286,Sea Breeze Cafe, American, 3940 Judah St. San Francisco, (415) 242-6022, 2    , 2    , 3    ,4.212,19.604,14.965,4.212
+287,Seaglass, American, Pier 15 San Francisco, (415) 528-4444, 2    , 2    , 4    ,4.448,14.727,10.088,4.448
+288,Sears Fine Foods, American, 439 Powell St. San Francisco, (415) 986-0700, 2    , 2    , 3    ,2.8089999999999997,13.192,8.552999999999999,2.8089999999999997
+289,Serpentine, American, 2495 Third St. San Francisco, (415) 252-2000, 3    , 2    , 4    ,3.4760000000000004,13.966,9.327,3.4760000000000004
+290,Solstice, American, 2801 California San Francisco, (415) 359-1222, 2    , 2    , 5    ,2.141,16.471,11.832,2.141
+291,St. Francis Fountain, American, 2801 24th St. San Francisco, (415) 826-4200, 1    , 2    , 4    ,2.31,14.715,10.076,2.31
+292,The Bell Tower, American, 1900 Polk St. San Francisco, (415) 567-9596, 2    , 2    , 3    ,2.969,14.700999999999999,10.062000000000001,2.969
+293,Mamacita, Mexican, 2317 Chestnut St. San Francisco, (415) 346-8494, 2    , 3    , 5    ,3.045,16.027,11.388,3.045
+294,Nopalito, Mexican, 306 Broderick St. San Francisco, (415) 437-0303, 2    , 3    , 3    ,1.197,15.527000000000001,10.888,1.197
+295,Nopalito, Mexican, 1224 Ninth Avenue San Francisco, (415) 233-9966, 2    , 3    , 3    ,2.2569999999999997,17.292,12.652999999999999,2.2569999999999997
+296,Padrecito, Mexican, 901 Cole St. San Francisco, (415) 742-5505, 2    , 3    , 5    ,1.28,16.314,11.675,1.28
+297,Don Pisto's, Mexican, 510 Union St. San Francisco, (415) 395-0939, 2    , 2.5  , 4    ,4.082,14.630999999999998,9.992,4.082
+298,La Taqueria, Mexican, 2889 Mission St. San Francisco, (415) 285-7117, 1    , 2.5  , 3    ,1.8430000000000002,15.735,11.095999999999998,1.8430000000000002
+299,La Urbana, Mexican, 661 Divisadero St. San Francisco, (415) 440-4500, 3    , 2.5  , 5    ,1.288,15.618,10.979000000000001,1.288
+300,Sabrosa Restaurant, Mexican, 3200 Fillmore St. San Francisco, (415) 638-6500, 3    , 2.5  , 5    ,3.2030000000000003,15.879000000000001,11.24,3.2030000000000003
+301,Tacolicious (Mission), Mexican, 741 Valencia St. San Francisco, (415) 626-1344, 2    , 2.5  , 3    ,1.0190000000000001,15.163,10.524000000000001,1.0190000000000001
+302,Chilango, Mexican, 235 Church St. San Francisco, (415) 552-5700, 2    , 2    , 2    ,0.9159999999999999,14.967,10.328,0.9159999999999999
+303,Colibri Mexican Bistro, Mexican, 438 Geary St. San Francisco, (415) 440-2737, 2    , 2    , 4    ,2.679,13.524000000000001,8.885,2.679
+304,Garaje, Mexican, 475 Third St. San Francisco, (415) 644-0838, 1    , 2    , 5    ,3.38,12.455,7.816,3.38
+305,Mexico DF, Mexican, 139 Steuart St. San Francisco, (415) 808-1048, 2    , 2    , 4    ,4.323,12.765999999999998,8.127,4.323
+306,Regalito Rosticeria, Mexican, 3481 18th St. San Francisco, (415) 503-0650, 2    , 2    , 3    ,1.001,15.082,10.443,1.001
+307,Roosevelt Tamale Parlor, Mexican, 2817 24th St. San Francisco, (415) 824-2600, 2    , 2    , 1    ,2.296,14.700999999999999,10.062000000000001,2.296
+308,Tres , Mexican, 130 Townsend St. San Francisco, (415) 227-0500, 2    , 2    , 5    ,3.77,12.487,7.848,3.77
+309,Tropisueno, Mexican, 75 Yerba Buena Lane San Francisco, (415) 243-0299, 2    , 2    , 2    ,2.784,13.492,8.853,2.784
+310,Celia's Mexican Restaurant, Mexican, 4019 Judah St. San Francisco, (415) 564-0662, 2    , 1.5  , 2    ,4.248,19.641,15.002,4.248
+311,San Jalisco , Mexican, 901 S Van Ness Ave San Francisco , (415) 648-8383, 2    , 4    , 2    ,1.444,14.619000000000002,9.98,1.444
+312,Colibri Mexican Bistro, Mexican, 438 Geary St San Francisco, (415) 440-2737, 2    , 4    , 3    ,2.679,13.524000000000001,8.885,2.679
+313,Gracias Madre, Mexican, 2211 Mission St San Francisco, (415) 683-1346, 2    , 4    , 3    ,1.12,15.013,10.374,1.12
+314,Tia Margarita Mexican Restaurant, Mexican, 300 19th Ave San Francisco, (415) 752-9274, 2    , 3.5  , 2    ,4.17,18.503,13.864,4.17
+315,Tropisueño, Mexican, 75 Yerba Buena Ln San Francisco, (415) 243-0299, 2    , 4    , 2    ,2.784,13.492,8.853,2.784
+316,Papito, Mexican, 317 Connecticut St San Francisco, (415) 695-0147, 2    , 4    , 2    ,2.786,14.259,9.62,2.786
+317,Nopalito, Mexican, 306 Broderick St San Francisco, (415) 437-0303, 2    , 4    , 2    ,1.197,15.527000000000001,10.888,1.197
+318,El Toreador, Mexican, 50 W Portal Ave San Francisco, (415) 566-8104, 2    , 3.5  , 2    ,2.7939999999999996,20.148,15.509,2.7939999999999996
+319,Don Pisto, Mexican, 510 Union St San Francisco, (415) 395-0939, 2    , 4    , 2    ,4.082,14.630999999999998,9.992,4.082
+320,Mamacita, Mexican, 2317 Chestnut St San Francisco, (415) 346-8494, 3    , 3.5  , 3    ,3.045,16.027,11.388,3.045
+321,Tommy's Restaurant, Mexican, 5929 Geary Blvd San Francisco, (415) 387-4747, 2    , 3.5  , 2    ,4.178,18.629,13.99,4.178
+322,La Corneta Taqueria, Mexican, 2834 Diamond St San Francisco, (415) 469-8757, 1    , 4    , 2    ,2.34,18.152,13.513,2.34
+323,Farallon, Seafood, 450 Post St. San Francisco, (415) 956-6969, 4    , 3.5  , 4    ,2.83,13.199000000000002,8.56,2.83
+324,Local's Corner, Seafood, 2500 Bryant St. San Francisco, (415) 800-7945, 3    , 3    , 3    ,2.161,14.57,9.931000000000001,2.161
+325,Nettie's Crab Shack, Seafood, 2032 Union St. San Francisco, (415) 409-0300, 2    , 3    , 3    ,3.227,15.347999999999999,10.709000000000001,3.227
+326,Waterbar, Seafood, 399 The Embarcadero San Francisco, (415) 284-9922, 4    , 3    , 3    ,4.711,13.154000000000002,8.515,4.711
+327,Anchor & Hope, Seafood, 83 Minna St. San Francisco, (415) 501-9100, 4    , 2.5  , 4    ,3.806,12.665999999999999,8.027000000000001,3.806
+328,Anchor Oyster Bar, Seafood, 579 Castro St. San Francisco, (415) 431-3990, 3    , 2.5  , 3    ,0.155,15.620999999999999,10.982000000000001,0.155
+329,Brindisi Cucina di Mare, Seafood, 88 Belden Place San Francisco, (415) 593-8000, 2    , 3.5  , 3    ,3.2560000000000002,12.952,8.312999999999999,3.2560000000000002
+330,Plouf, Seafood, 40 Belden Place San Francisco, (415) 986-6491, 3    , 2.5  , 4    ,3.2680000000000002,13.062999999999999,8.424,3.2680000000000002
+331,Skool, Seafood, 1725 Alameda St. San Francisco, (415) 255-8800, 3    , 2.5  , 4    ,2.459,13.593,8.954,2.459
+332,Sutro's at the Cliff House, Seafood, 1090 Point Lobos San Francisco, (415) 386-3330, 4    , 2.5  , 3    ,1.92,14.23,9.591000000000001,1.92
+333,Waterfront Restaurant and Cafe, Seafood, Pier 7 on the Embarcadero San Francisco, (415) 391-2696, 3    , 2.5  , 4    ,1.92,14.23,9.591000000000001,1.92
+334,Woodhouse Fish Co., Seafood, 1914 Fillmore St. San Francisco, (415) 437-2722, 2    , 2.5  , 4    ,2.404,16.000999999999998,11.362,2.404
+335,Alamo Square Seafood Grill, Seafood, 803 Fillmore St. San Francisco, (415) 440-2828, 2    , 2    , 4    ,1.6640000000000001,15.262,10.623,1.6640000000000001
+336,Bar Crudo, Seafood, 655 Divisadero St. San Francisco, (415) 409-0679, 2    , 2    , 4    ,1.2690000000000001,15.599,10.96,1.2690000000000001
+337,Franciscan Crab Restaurant, Seafood, Pier 43 1/2 San Francisco, (415) 362-7733, 2    , 2    , 3    ,4.448,14.727,10.088,4.448
+338,Hayes Street Grill, Seafood, 320 Hayes St. San Francisco, (415) 863-5545, 3    , 2    , 3    ,1.694,15.107000000000001,10.468,1.694
+339,Lot 7, Seafood, 974 Valencia St. San Francisco, (415) 817-1212, 3    , 2    , 4    ,1.274,15.418,10.779000000000002,1.274
+340,Pacific Catch, Seafood, 1200 Ninth Avenue San Francisco, (415) 504-6905, 2    , 2    , 3    ,2.227,17.262,12.623,2.227
+341,Scoma's, Seafood, 1 Al Scoma Way San Francisco, (415) 771-4383, 3    , 2    , 3    ,4.25,14.89,10.251,4.25
+342,Sotto Mare, Seafood, 552 Green St. San Francisco, (415) 398-3181, 3    , 2    , 4    ,3.99,13.515999999999998,8.877,3.99
+343,Swan Oyster Depot, Seafood, 1517 Polk St. San Francisco, (415) 673-1101, 2    , 2    , 3    ,2.7310000000000003,13.869000000000002,9.23,2.7310000000000003
+344,The Old Clam House, Seafood, 299 Bayshore Blvd. San Francisco, (415) 826-4880, 2    , 2    , 3    ,2.85,15.339,10.7,2.85
+345,Woodhouse Fish Company, Seafood, 2073 Market St. San Francisco, (415) 437-2722, 2    , 2    , 1    ,0.872,14.91,10.270999999999999,0.872
+346,Yabbies Coastal Kitchen, Seafood, 2237 Polk St. San Francisco, (415) 474-4088, 3    , 2    , 4    ,3.1919999999999997,14.687000000000001,10.048,3.1919999999999997
+347,Beach Chalet, Seafood, 1000 Great Hwy. San Francisco, (415) 386-8439, 2    , 1.5  , 4    ,5.51,19.843,15.204,5.51
+348,Blue Mermaid Chowder House and Bar, Seafood, 471 Jefferson St. San Francisco, (415) 771-2222, 2    , 1.5  , 4    ,4.074,14.860999999999999,10.222000000000001,4.074
+349,Crab House at Pier 39, Seafood, Pier 39 San Francisco, (415) 434-0432, 2    , 1    , 3    ,4.448,14.727,10.088,4.448
+350,Anchor Oyster Bar, Seafood, 579 Castro St San Francisco, (415) 431-3990, 3    , 3.5  , 2    ,0.155,15.620999999999999,10.982000000000001,0.155
+351,Swan Oyster Depot, Seafood, 1517 Polk St San Francisco, (415) 673-1101, 2    , 4    , 3    ,2.7310000000000003,13.869000000000002,9.23,2.7310000000000003
+352,Hog Island Oyster Co, Seafood, 1 Ferry Bldg San Francisco, (415) 391-7117, 2    , 3.5  , 2    ,3.9389999999999996,12.387,7.747999999999999,3.9389999999999996
+353,Woodhouse Fish Company, Seafood, 2073 Market St San Francisco, (415) 437-2722, 2    , 3.5  , 2    ,0.872,14.91,10.270999999999999,0.872
+354,Woodhouse Fish Co., Seafood, 1914 Fillmore St San Francisco, (415) 437-2722, 2    , 3.5  , 3    ,2.404,16.000999999999998,11.362,2.404
+355,Mission Street Oyster Bar, Seafood, 2282 Mission St San Francisco, (415) 621-6987, 2    , 3.5  , 2    ,1.188,15.081,10.442,1.188
+356,Farallon, Seafood, 450 Post St San Francisco, (415) 956-6969, 4    , 3.5  , 1    ,2.83,13.199000000000002,8.56,2.83
+357,Tadich Grill, Seafood, 240 California St San Francisco, (415) 391-1849, 3    , 3.5  , 1    ,3.281,12.745,8.106,3.281
+358,Pacific Cafe, Seafood, 7000 Geary Blvd San Francisco, (415) 387-7091, 2    , 3.5  , 3    ,5.155,19.488,14.849,5.155
+359,Swamp, Seafood, 5423 Geary Blvd San Francisco, (415) 876-2828, 2    , 3.5  , 2    ,3.884,18.213,13.574000000000002,3.884
+360,Pacific Catch, Seafood, 2027 Chestnut St San Francisco, (415) 440-1950, 2    , 3.5  , 2    ,3.3080000000000003,15.764000000000001,11.125,3.3080000000000003
+361,1601 Bar & Kitchen, Italian, 1601 Howard St. San Francisco, (415) 552-1601, 2    , 2.5  , 3    ,1.705,14.548,9.908999999999999,1.705
+362,Absinthe, Italian, 398 Hayes St. San Francisco, (415) 551-1590, 4    , 3    , 3    ,1.626,15.039000000000001,10.4,1.626
+363,Aquitaine, Italian, 175 Sutter St. San Francisco, (415) 402-5290, 3    , 2.5  , 3    ,3.1260000000000003,12.913,8.274,3.1260000000000003
+364,Atelier Crenn, Italian, 3127 Fillmore St. San Francisco, (415) 440-0460, 4    , 2.5  , 3    ,3.1630000000000003,15.919,11.28,3.1630000000000003
+365,Baker Street Bistro, Italian, 2953 Baker St. San Francisco, (415) 931-1475, 2    , 2    , 3    ,3.115,16.402,11.763,3.115
+366,Bistro Central Parc, Italian, 560 Central Ave. San Francisco, (415) 931-7272, 3    , 2    , 4    ,1.796,16.17,11.530999999999999,1.796
+367,Cafe Bastille, Italian, 22 Belden Place San Francisco, (415) 986-5673, 3    , 2    , 4    ,3.279,13.074000000000002,8.435,3.279
+368,Cafe Jacqueline, Italian, 1454 Grant Ave. San Francisco, (415) 981-5565, 2    , 2.5  , 2    ,4.129,14.679,10.04,4.129
