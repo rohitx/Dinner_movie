@@ -1,5 +1,7 @@
 import urllib, json, yaml
 from datetime import datetime
+from time import sleep
+
 
 url = "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?apikey=gtpf26gfz747nzajm26uz9hp"
 response = urllib.urlopen(url)
@@ -48,6 +50,8 @@ movie_genre = []
 movie_ids = ['771317257']
 movie_synopsis = []
 for ids in movie_id:
+	print "Sleeping for 3 sec..."
+	sleep(3)
 	url_id = "http://api.rottentomatoes.com/api/public/v1.0/movies/"+ids+".json?apikey=gtpf26gfz747nzajm26uz9hp"
 	response = urllib.urlopen(url_id)
 	data_id = json.loads(response.read())
