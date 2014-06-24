@@ -34,6 +34,8 @@
 #---------------------------------------------------------------- 
 import numpy as np
 import pandas as pd
+import glob 
+import os
 
 #----------------------------------------------------------------
 # READ FILE IN PANDAS 
@@ -145,6 +147,10 @@ df_userselected["zscore"] = zscore
 
 best = df_userselected.sort(["zscore"], ascending=[True])
 
+#----------------------------------------------------------------
+# GET USER CHOICE OF RESTAURANT 
+#----------------------------------------------------------------
+
 # Print out the top 5 restaurants along with their address and phone #: 
 for i in range(0,5):
 	rest_sr_no = str(i+1)
@@ -164,6 +170,27 @@ for i in range(0,5):
 		this_rest_price == "$$$$"
 	this_rest_noise  = this_best_rest[6] 
 	print "({num:2s}) Restaurant Name: {rest:5s} \n Price: {price:3s} \n Rating: {rating:.1f} \n Distance: {dist:.2f}\n".format(rest = this_rest_name, price = this_rest_price, rating = this_rest_rating, dist = this_rest_dist, num=rest_sr_no)
+
+input_restaurant = raw_input("Please select restaurant of your choice: ")
+user_restaurant  = int(input_restaurant) - 1
+
+user_rest = best.iloc[user_restaurant].head(8)
+user_rest_name = user_rest[0]
+user_rest_add  = user_rest[2]
+user_rest_phone = user_rest[3]
+print "Your restaurant of choice: "
+print "Restaurant Name: {name:5s}\n Address: {address:5s}\n Phone # {phone:5s} " .format(name = user_rest_name, address=user_rest_add, phone=user_rest_phone)
+
+#----------------------------------------------------------------
+#  GET CHOICE OF MOVIE 
+#----------------------------------------------------------------
+# Read in the latest movies playing in theatres: 
+#current_movies = glob.glob('data_prep/current_movies*.csv')
+#current_movies = max(glob.iglob('data_prep/current_movies*.csv'), key=os.path.getctime)
+#file_movie = current_movies[0]
+#header_names_movie = ["movie_name", "parent_rating", "rotten_scores", "public_scores", "genre1", "genre2"]
+#df_movies = pd.read_csv(file_movie, names = header_names_movie, )
+#print df_movies 
 
 # Output to JSON: 
 #print best.head(3).to_json(orient="records")
