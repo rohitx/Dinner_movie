@@ -73,17 +73,15 @@ while count < 1:
 
 	print "Enter between {input_price:2d} and {rating_range:2d}".format(rating_range=rating_range, input_price=input_price)
 	input_rating   = int(raw_input("Rating: "))
-	if (input_price - input_rating) == 0:
-		input_distance = 0
-		break
-	else:
-		input_distance = (100 - input_price - input_rating)
-		count = 1
+	input_distance = (100 - (input_price + input_rating))
+	count = 1
 
 weights = [input_price, input_rating, input_distance]
 
+print weights
+
 #----------------------------------------------------------------
-# JUST GET DATA CORRESPONDING TO THE CATEGORY IN PANDAS 
+# GET DATA CORRESPONDING TO THE CATEGORY IN PANDAS 
 #---------------------------------------------------------------- 
 df_cuisine = df_restaurants[(df_restaurants['Category'] == user_cat)]
 ind = len(df_cuisine.index)+1
@@ -100,15 +98,85 @@ df_userselected["rating"] = df_cuisine["rating"].values
 df_userselected["price"] = df_cuisine["price"].values
 df_userselected["noise_level"] = df_cuisine["noise_level"].values
 df_userselected["Distance"] = df_cuisine["Distance_from_"+user_zip].values
-print df_userselected.head()
+#print df_userselected.head()
 
 #----------------------------------------------------------------
 # DO STATISTICS ON THE DATA 
 #----------------------------------------------------------------
 
-# Get mean values for prices and rating for all of the restaurants
-fsafsa
- 
+# Get mean and STDEV of prices and rating for all of the restaurants in the database: 
+mu_price  = df_restaurants["price"].mean()
+mu_rating = df_restaurants["rating"].mean()
+std_price = df_restaurants["rating"].std()
+std_rating = df_restaurants["rating"].std()
+
+# For distance, use the user-specified zipcode distance: 
+mu_distance = df_userselected["Distance"].mean()
+std_distance = df_userselected["Distance"].std()
+
+# Compute the Z-value for each restaurant: 
+zprice    = (df_userselected["price"]    - mu_price) / std_price
+zrating   = -(df_userselected["rating"]   - mu_rating) / std_rating
+zdistance = (df_userselected["Distance"] - mu_distance) / std_distance
+
+# Compute the Z-score for price, rating, and distance. This involves the weights:  
+price_score    = (zprice * input_price)
+rating_score   = (zrating * input_rating)
+distance_score = (zdistance * input_distance) 
+
+# Calculate the total score for each restaurant 
+
+price_score    = (zprice    * input_price)
+rating_score   = (zrating   * input_rating)
+distance_score = (zdistance * input_distance)
+
+zscore = (price_score + rating_score + distance_score)
+
+#----------------------------------------------------------------
+# ORGANIZE DATA AND POST TO SCREEN 
+#----------------------------------------------------------------
+
+# Put all of this information into the database for displaying: 
+
+df_userselected["zscore"] = zscore
+#print df_userselected.head()
+
+# Sort restaurants by ascending order of Zscore: 
+
+best = df_userselected.sort(["zscore"], ascending=[True])
+
+# Print out the top 5 restaurants along with their address and phone #: 
+for i in range(0,5):
+	rest_sr_no = str(i+1)
+	this_best_rest = best.iloc[i].head(8)
+	this_rest_name   = this_best_rest[0]
+	this_rest_add    = this_best_rest[2]
+	this_rest_rating = this_best_rest[4]
+	this_rest_price  = this_best_rest[5]
+	this_rest_dist   = this_best_rest[7]
+	if (this_rest_price == 2 or this_rest_price == 2.5):
+		this_rest_price = "$$"
+	elif (this_rest_price == 3 or this_rest_price == 3.5):
+		this_rest_price == "$$$"
+	elif (this_rest_price < 2):
+		this_rest_price == "$"
+	else:
+		this_rest_price == "$$$$"
+	this_rest_noise  = this_best_rest[6] 
+	print "({num:2s}) Restaurant Name: {rest:5s} \n Price: {price:3s} \n Rating: {rating:.1f} \n Distance: {dist:.2f}\n".format(rest = this_rest_name, price = this_rest_price, rating = this_rest_rating, dist = this_rest_dist, num=rest_sr_no)
+
+# Output to JSON: 
+#print best.head(3).to_json(orient="records")
+
+
+
+
+
+
+
+
+
+
 
 
 
