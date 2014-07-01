@@ -74,16 +74,16 @@ for i in range(len(rating_critics)):
 	print this_genre
 	if len(this_genre) < 2:
 		this_genre1 = this_genre[0]
-		filename.write("{this_title:5s}, {this_mpaa:5s}, {this_runtime:5d}, {this_crating:5d}, {this_genre1:5s}, ,{this_synopsis:5s} \n".format(this_title=this_title, this_mpaa=this_mpaa, this_runtime=this_runtime, this_crating=this_crating, this_genre1=this_genre1, this_synopsis=this_synopsis))
+		filename.write("{this_title:5s}, {this_mpaa:5s}, {this_runtime:5d}, {this_crating:5d}, {this_genre1:5s} \n".format(this_title=this_title, this_mpaa=this_mpaa, this_runtime=this_runtime, this_crating=this_crating, this_genre1=this_genre1))
 	elif len(this_genre) == 2:
 		this_genre1 = this_genre[0]
 		this_genre2 = this_genre[1]
-		filename.write("{this_title:5s}, {this_mpaa:5s}, {this_runtime:5d}, {this_crating:5d}, {this_genre1:5s}, {this_genre2:5s}, {this_synopsis:5s}\n".format(this_title=this_title, this_mpaa=this_mpaa, this_runtime=this_runtime, this_crating=this_crating, this_genre1=this_genre1, this_genre2=this_genre2, this_synopsis=this_synopsis))
+		filename.write("{this_title:5s}, {this_mpaa:5s}, {this_runtime:5d}, {this_crating:5d}, {this_genre1:5s}, {this_genre2:5s}\n".format(this_title=this_title, this_mpaa=this_mpaa, this_runtime=this_runtime, this_crating=this_crating, this_genre1=this_genre1, this_genre2=this_genre2))
 	else:
 		print "Too many genre categories in ", this_title
 		this_genre1 = this_genre[1]
 		this_genre2 = this_genre[2]
-		filename.write("{this_title:5s}, {this_mpaa:5s}, {this_runtime:5d}, {this_crating:5d}, {this_genre1:5s}, {this_genre2:5s}, {this_synopsis:5s}\n".format(this_title=this_title, this_mpaa=this_mpaa, this_runtime=this_runtime, this_crating=this_crating, this_genre1=this_genre1, this_genre2=this_genre2, this_synopsis=this_synopsis))
+		filename.write("{this_title:5s}, {this_mpaa:5s}, {this_runtime:5d}, {this_crating:5d}, {this_genre1:5s}, {this_genre2:5s}\n".format(this_title=this_title, this_mpaa=this_mpaa, this_runtime=this_runtime, this_crating=this_crating, this_genre1=this_genre1, this_genre2=this_genre2))
 
 filename.close()	 	
 

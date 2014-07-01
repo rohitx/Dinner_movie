@@ -49,10 +49,18 @@ df_restaurants[["rating", "price"]] = df_restaurants[["rating", "price"]].astype
 # GET USER INPUT ON CATEGORY
 #---------------------------------------------------------------- 
 
-# GET ZIPCODE 
+# GET ZIPCODE
+zipcodes = ["94114", "94501", "94607", "94707"] 
 print "Zipcode choices: 94114, 94501, 94607, 94707"
 input_zipcode = raw_input("Please Enter your zipcode: ")
 user_zip = str(input_zipcode)
+for zips in zipcodes:
+	if zips.find(user_zip) == -1:
+		input_zipcode = raw_input("Please Enter a valid zipcode: ")
+		user_zip = str(input_zipcode)
+	else:
+		break
+
 
 # GET CUISINE CHOICE: 
 print "Here are the following categories:"
@@ -73,14 +81,19 @@ while count < 1:
 		input_distance = 0
 		break
 
-	print "Enter between {input_price:2d} and {rating_range:2d}".format(rating_range=rating_range, input_price=input_price)
+	#print "Enter between {input_price:2d} and {rating_range:2d}".format(rating_range=rating_range, input_price=input_price)
 	input_rating   = int(raw_input("Rating: "))
 	input_distance = (100 - (input_price + input_rating))
 	count = 1
 
-weights = [input_price, input_rating, input_distance]
+#weights = [input_price, input_rating, input_distance]
 
-print weights
+# Get Movie Choice: 
+#input_cat = raw_input("Enter your choice of movies: ")
+#cat = int(input_cat) - 1
+#user_cat = cuisine[cat]
+
+#print weights
 
 #----------------------------------------------------------------
 # GET DATA CORRESPONDING TO THE CATEGORY IN PANDAS 
@@ -186,10 +199,10 @@ print "Restaurant Name: {name:5s}\n Address: {address:5s}\n Phone # {phone:5s} "
 #----------------------------------------------------------------
 # Read in the latest movies playing in theatres: 
 #current_movies = glob.glob('data_prep/current_movies*.csv')
-#current_movies = max(glob.iglob('data_prep/current_movies*.csv'), key=os.path.getctime)
-#file_movie = current_movies[0]
-#header_names_movie = ["movie_name", "parent_rating", "rotten_scores", "public_scores", "genre1", "genre2"]
-#df_movies = pd.read_csv(file_movie, names = header_names_movie, )
+current_movies = max(glob.iglob('data_prep/current_movies*.csv'), key=os.path.getctime)
+header_names_movie = ["movie_name", "parent_rating", "rotten_scores", "genre1", "genre2"]
+index = range(0,15,1)
+df_movies = pd.read_csv(current_movies, names = header_names_movie, usecols = (0,1,2,4,5))
 #print df_movies 
 
 # Output to JSON: 
